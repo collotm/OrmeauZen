@@ -19,7 +19,7 @@
   <body class="text-center">
     <form class="form-signin">
       <img class="mb-4" src="images/frah.jpg" alt="">
-      <h1 class="h3 mb-3 font-weight-normal">Connectez-vous à OrmeauZen</h1>
+      <h1 class="h3 mb-3 font-weight-normal">Connectez-vous à OrmeauZen V1.0</h1>
       <label for="inputEmail" class="sr-only">Mail Adress</label>
       <input type="email" id="inputEmail" class="form-control" placeholder="Adresse mail" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>
