@@ -10,7 +10,7 @@
     <title>Historique des bassins</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap4/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap4/dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="historique.css" rel="stylesheet">
