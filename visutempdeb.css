@@ -2,11 +2,9 @@
   --jumbotron-padding-y: 3rem;
 }
 
-/*
-.nbassin {
-color: blue;
-text-decoration: underline;
-}*/
+.valeur{
+  border: 1px solid black;
+}
 
 .starter-template {
   padding: 3rem 1.5rem;

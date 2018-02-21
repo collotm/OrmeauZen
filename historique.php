@@ -1,4 +1,7 @@
 <!doctype html>
+<?php
+$bassin=$_GET["bassin"];
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -83,7 +86,9 @@
 
       <section class="starter-template">
         <div class="container">
-          <h1>Historique du bassin n°</h1>
+          <?php
+          echo '<h1>Historique du bassin n° '.$bassin.'</h1>';
+          ?>
           <p class="lead text-muted"></p>
           <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
         </div>

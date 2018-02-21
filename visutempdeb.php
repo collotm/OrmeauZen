@@ -25,30 +25,60 @@
           <div class="row">
            <?php
 
-              for($i=1 ; $i<2 ; $i++){
+              for($i=1 ; $i<10 ; $i++){
               echo '
             <div class="col-md-3">
               <div class="card mb-5 box-shadow">
-                <table>
-                  <td>
-                    <p class="temp" align="left"><img src="images/temp.png" /></p>
-                  </td>
-                  <td>
-                    <p class="nbassin" align="center"><a href="historique.php">Bassin n°' .$i. '</a></p>
-                  </td>
-                  <td>
-                    <p class="deb" align="right"><img src="images/deb.png" /></p>
-                  </td>
-                </table>
-
                 <div class="card-body">
-                  <div>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
-                      <p class="card-text">Réglage débit</p>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
-                    </div>
-                  </div>
+                  <table>
+                    <tr> 
+                      <th>
+                        <p class="temp"><img src="images/temp.png" /></p>
+                      </th>
+                      <th>
+                        <p class="nbassin" align="center"><a href="historique.php">Bassin n°' .$i. '</a></p>
+                      </th>
+                      <th>
+                        <p class="deb"><img src="images/deb.png" /></p>
+                      </th>
+                    </tr>
+
+                    <tr>
+                      <td class="valeur" aligne="center">
+                        #valeur
+                      </td>
+                      <td>
+                        <p></p>
+                      </td>
+                      <td class="valeur" align="center">
+                        0
+                      </td>  
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <p>&nbsp;</p>
+                      </td>
+                      <td>
+                        <p>&nbsp;</p>
+                      </td>
+                      <td>
+                        <p>&nbsp;</p>
+                      </td>  
+                    </tr>
+
+                    <tr>
+                      <td align="center">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                      </td>
+                      <td>
+                        <p class="card-text">Réglage débit</p>
+                      </td>
+                      <td align="center">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">+</button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
               </div>
             </div>';
