@@ -10,7 +10,20 @@ if (isset($_POST['submit'])) {
 	//Error handlers
 	//Check for empty fields
 	if (empty($email) || empty($pwd)) {
-		# code...
+		header("Location: ../signin.php?signin=empty");
+		exit();
+	} else {
+		//Check if input characters are valid
+		if (!preg_match("/^[a-zA-Z]*$", $email)) {
+			header("Location: ../signin.php?signin=invalid");
+			exit();
+		} else {
+			//Check if email is valid
+			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				header("Location: ../signin.php?signin=email");
+				exit();
+			}
+		}
 	}
 
 
